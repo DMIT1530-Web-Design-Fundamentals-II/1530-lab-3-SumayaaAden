@@ -1,26 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 03</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 03 - eSports</title>
 
     <!-- Meta Tags -->
-    <meta name="author" content="...">
-    <meta name="description" content="...">
+    <meta name="author" content="Sumaya Aden" />
+    <meta
+      name="description"
+      content="Practice responsive navigation using toggle"
+    />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-</head>
+    <script src="js/main.js" defer></script>
+  </head>
 
-<body>
-    
-</body>
-
+  <body>
+    <header>
+      <div class="inner-container wide-flex">
+        <div class="flex-container">
+          <h1><span>e</span>Sports</h1>
+          <div class="menu-icon">
+            <img
+              src="img/joystick-logo.svg"
+              alt="Menu Icon"
+              class="menu-close menu-open"
+            />
+            <h3>Menu</h3>
+          </div>
+        </div>
+        <nav class="sidebar">
+          <ul class="main-menu">
+            <li class="item dropdown-item">
+              <a href="#"
+                ><img src="img/pink-circle.svg" alt="pink circle" /> GAMES
+                <img src="img/down-chevron.svg" alt="Dropdown arrow image"
+              /></a>
+              <div class="dropdown">
+                <ul>
+                  <li class="item"><a href="#">CS:GO</a></li>
+                  <li class="item"><a href="#">DOTA 2</a></li>
+                  <li class="item"><a href="#">Fortnite</a></li>
+                  <li class="item"><a href="#">League of Legends</a></li>
+                  <li class="item"><a href="#">Overwatch</a></li>
+                  <li class="item"><a href="#">Pokémon</a></li>
+                  <li class="item"><a href="#">PUBG</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="item dropdown-item">
+              <a href="#"
+                ><img src="img/yellow-circle.svg" alt="yellow circle" />
+                Schedule
+                <img src="img/down-chevron.svg" alt="Dropdown arrow image"
+              /></a>
+              <div class="dropdown">
+                <ul>
+                  <li class="item"><a href="#">Australia & EU</a></li>
+                  <li class="item"><a href="#">East Asia</a></li>
+                  <li class="item"><a href="#">North America</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="item dropdown-item">
+              <a href="#"
+                ><img src="img/green-circle.svg" alt="green circle" /> Register
+                <img src="img/down-chevron.svg" alt="Dropdown arrow image"
+              /></a>
+              <div class="dropdown">
+                <ul>
+                  <li class="item"><a href="#">Individual Competitors</a></li>
+                  <li class="item"><a href="#">Team Events</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h2><span>e</span>Sports League</h2>
+          <p>
+            Get your head in the game! Register as an individual competitor or
+            for a team event in an upcoming tournament near you.
+          </p>
+          <a href="#register">
+            <button class="button">Register Now</button>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
